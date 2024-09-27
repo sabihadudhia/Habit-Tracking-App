@@ -21,6 +21,10 @@ class Manager:
             if habit.name == habit_name:
                 return habit
         return None
+    
+    def list_all(self):
+        return self.habits  
+
 
     def save_habits(self, filename):
         """Saves the habits to a JSON file."""
