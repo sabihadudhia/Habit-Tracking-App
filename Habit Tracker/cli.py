@@ -36,10 +36,12 @@ def check_off(name):
 @cli.command()
 def list_habits():
     """List all habits."""
+    manager = Manager()
     habits = manager.list_all()
     click.echo("Tracked Habits:")
     for habit in habits:
         click.echo(f"- {habit}")
+
 
 @cli.command()
 def analyse_habits():
