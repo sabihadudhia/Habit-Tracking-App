@@ -49,7 +49,7 @@ The Command Line Interface is utilized for the application usage
 
 5. Deleting a habit:
    ```bash
-   python cli.py delete-habit "Habit Name"
+   python cli.py delete-habit --name "Habit Name"
 
 ## Data Storage
 Habits are stored in a JSON file named habits.json. The file is created automatically upon the first habit addition.
