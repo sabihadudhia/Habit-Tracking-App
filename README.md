@@ -52,4 +52,4 @@ The Command Line Interface is utilized for the application usage
    python cli.py delete-habit "Habit Name"
 
 ## Data Storage
-habits are stored in a JSON file (habits.json)
+Habits are stored in a JSON file named habits.json. The file is created automatically upon the first habit addition.
